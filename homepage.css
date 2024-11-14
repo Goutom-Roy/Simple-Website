@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    width: 95%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Heading Styling */
+.container h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 25px;
+    font-weight: 600;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+    color: #555;
+    border: none;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+tr:hover {
+    background-color: #e2f4e6;
+    cursor: pointer;
+}
+
+/* Logout Button Styling */
+.logout-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 14px 30px;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover {
+    background-color: #45a049;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.logout-btn:active {
+    background-color: #3e8e41;
+    transform: translateY(0);
+}
