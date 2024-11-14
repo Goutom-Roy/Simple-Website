@@ -58,7 +58,7 @@
          <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
         <div class="links">
-          <p>Don't have an account yet?</p>
+          <p>Don't have an account yet?? </p>
           <button id="signUpButton">Sign Up</button>
         </div>
       </div>
